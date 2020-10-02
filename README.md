@@ -36,6 +36,12 @@ Add the following line into `app/assets/javascripts/active_admin.js`:
 //= require active_admin_datetimepicker
 ```
 
+Add the following line to the `ActiveAdmin.setup` block inside your Active Admin initializer:
+
+```ruby
+config.register_stylesheet 'jquery.xdan.datetimepicker.css'
+```
+
 
 ## Usage
 
